@@ -1,0 +1,19 @@
+<div>
+    <!-- <p> mustache of editContent/_init id= {{_id}} rev= {{_rev}} </p> -->
+    <a class=docidrev "docid"={{_id}}  "docrev"={{_rev}} />
+    <div data-role="fieldcontain">
+        <label for="title">Title:</label>
+        <input id="editTitleField" name="title" type="text" data-role="none"
+            value="{{title}}" >
+    </div>
+    <div data-role="fieldcontain">
+        <label for="text">Text:</label>
+        <textarea id="editTextField" name="text" cols="40" rows="8" >{{text}}
+        </textarea>
+    </div>
+    <div data-role="fieldcontain" class="ui-widget>
+        <label for="tags">Tags:</label>
+        <input id="editTagsField" name="tags" type="text" data-role="none"
+            value="{{taglist}}" />
+    </div>
+</div>

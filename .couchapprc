@@ -1,0 +1,7 @@
+{
+    "env" : {
+        "default" : {
+            "db" : "http://ndumisom:ayabonga@localhost:5984/enotes"
+        }
+    }
+}

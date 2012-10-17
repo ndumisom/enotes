@@ -1,0 +1,15 @@
+<ul id="titleslist" data-role="listview">
+    {{#rows}}
+        <li>
+        {{#value}}
+        <a class="title" href="#editPage" id={{_id}} >
+        {{#TextNote}}
+        {{#note}}
+              {{title}}
+        {{/note}}
+        {{/TextNote}}
+         </a>
+        {{/value}}
+        </li>
+    {{/rows}}
+</ul>
